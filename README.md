@@ -22,7 +22,7 @@
     <img src="images/logo.png" alt="Logo" width="250" height="130">
   </a> -->
   <a href="https://github.com/EvanGottschalk/TokenTools">
-    <img src="image/banner1.png" alt="TokenTools" height="200">
+    <img src="README_images/banner1.png" alt="TokenTools" height="200">
   </a>
 
   <h3 align="center">TokenTools</h3>
@@ -95,7 +95,7 @@
 All tokens on Solana are known as SPL tokens. You can use `TokenTools` to create new tokens, modify tokens, transfer tokens and beyond.
 
 <a href="https://github.com/EvanGottschalk/TokenTools">
-  <img src="image/screenshot.PNG" alt="TokenTools in action" height="200">
+  <img src="README_images/screenshot.PNG" alt="TokenTools in action" height="200">
 </a>
 
 
