@@ -28,7 +28,7 @@ import bs58 from 'bs58';
 //# Variable Declaration
 
 
-const use_menu = true;
+const use_menu = false;
 const network_addresses = {'mainnet': 'https://api.mainnet-beta.solana.com',
                            'devnet': 'https://api.devnet.solana.com'};
 
@@ -455,7 +455,6 @@ async function displayMenu() {
     } else if (selection.selected_option[0] === '7') {
       inquirer.prompt(private_key_input_prompt).then((value) => {
         const private_key = value.user_input;
-        // var private_key = "5mRZZ4pASv9cBuHwRakWYFYrgg7UYz4YcRhmYAui9XjWELfqDJxpJ4cLwedzrPzcosvXcuYQoQCymXGtq64atQMF";
         getKeypair(private_key);
       });
     } else if (selection.selected_option[0] === '8') {
@@ -480,4 +479,6 @@ if (use_menu) {
   displayMenu();
 } else {
   console.log('use_menu = False');
+  const private_key = "";
+  getKeypair(private_key);
 };
